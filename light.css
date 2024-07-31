@@ -140,8 +140,32 @@ p {
   body {
     gap: 30px;
   }
+
   #top-button {
-    width: 40px;
-    height: 40px;
+    width: 48px;
+    height: 48px;
+  }
+
+  #first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #profile-img {
+    width: 124px;
+    height: 124px;
+  }
+
+  #profile-text h1 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  #profile-text p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
   }
 }
