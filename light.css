@@ -56,6 +56,7 @@ body {
 }
 
 #second-section {
+  width: 634px;
   display: flex;
 
   gap: 90px;
@@ -125,6 +126,11 @@ p {
   background-color: rgb(151, 149, 149);
   border-radius: 10px;
   border: 1px solid rgb(151, 149, 149);
+  font: Poppins;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
 }
 
 #skills-button {
@@ -134,6 +140,27 @@ p {
   left: 23px;
   background-color: whitesmoke;
   border: none;
+  font: Poppins;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+}
+
+#breakdown-section {
+  width: 630px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+#footer {
+  font: Poppons;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
 }
 
 @media (max-width: 620px) {
@@ -153,19 +180,58 @@ p {
   }
 
   #profile-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 124px;
     height: 124px;
   }
 
   #profile-text h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-weight: 500;
     font-size: 32px;
     line-height: 48px;
+    text-align: center;
   }
 
   #profile-text p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
+    text-align: center;
+  }
+
+  #second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #download-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #portfolio-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    width: 300px;
+    height: 00px;
+  }
+
+  #breakdown-section {
+    display: flex;
+    flex-direction: column;
   }
 }

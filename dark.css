@@ -7,10 +7,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(17, 17, 17);
+  background-color: rgb(12, 12, 12);
   gap: 60px;
   font-family: Poppins;
-  color: #a3abb2;
+  color: #c9c8c8;
 }
 
 #top-button {
@@ -54,10 +54,10 @@ body {
 .icon {
   width: 36px;
   height: 36px;
-  color: #e7e7e7;
 }
 
 #second-section {
+  width: 634px;
   display: flex;
 
   gap: 90px;
@@ -127,6 +127,11 @@ p {
   background-color: rgb(151, 149, 149);
   border-radius: 10px;
   border: 1px solid rgb(151, 149, 149);
+  font: Poppins;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
 }
 
 #skills-button {
@@ -136,4 +141,59 @@ p {
   left: 23px;
   background-color: whitesmoke;
   border: none;
+  font: Poppins;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+}
+
+#breakdown-section {
+  width: 630px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+#footer {
+  font: Poppons;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
+}
+
+@media (max-width: 620px) {
+  body {
+    gap: 30px;
+  }
+
+  #top-button {
+    width: 48px;
+    height: 48px;
+  }
+
+  #first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #profile-img {
+    width: 124px;
+    height: 124px;
+  }
+
+  #profile-text h1 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  #profile-text p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+  }
 }
