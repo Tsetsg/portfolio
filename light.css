@@ -38,11 +38,15 @@ body {
   gap: 20px;
 }
 
-#profilepic {
-  width: 192px;
-  height: 192px;
-  top: 12px;
-  left: 14px;
+#pic {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+#profilepic img {
+  border-radius: 50%;
+  width: 70%;
 }
 
 #icons {
@@ -148,16 +152,28 @@ p {
 }
 
 #breakdown-section {
-  width: 630px;
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
+  width: 620px;
   gap: 5px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
+#breakdown-section a {
+  width: 48%;
+}
+
+.project {
+  border-radius: 12px;
+}
+
+.project img {
+  border-radius: 12px;
+  object-fit: cover;
+}
 #footer {
-  font: Poppons;
+  font: Poppins;
   font-size: 22px;
   font-weight: 500;
   line-height: 33px;
@@ -179,12 +195,11 @@ p {
     align-items: center;
   }
 
-  #profile-img {
+  #profilepic {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 124px;
-    height: 124px;
   }
 
   #profile-text h1 {
@@ -211,6 +226,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1px;
   }
 
   #download-section {
@@ -224,14 +240,23 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
+    margin-top: 20px;
 
     width: 300px;
     height: 00px;
   }
+  #skills-button {
+    border-radius: 10px;
+  }
 
   #breakdown-section {
+    width: 340px;
+    margin-top: 30px;
+
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
