@@ -247,7 +247,9 @@ p {
   }
 
   #skills-button {
-    background-color: aqua;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
   }
 
   #breakdown-section {
