@@ -139,6 +139,8 @@ p {
   font-size: 22px;
   line-height: 33px;
   text-align: center;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
 }
 
 #breakdown-section {
@@ -235,11 +237,13 @@ p {
     margin-top: 20px;
     width: 100%;
     padding: 20px;
-    background-color: rgb(238, 234, 234);
+    background-color: black;
   }
 
   #skills-button {
-    background-color: aqua;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
   }
 
   #breakdown-section {
